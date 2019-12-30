@@ -1,4 +1,5 @@
         <form action="{{ route('task.add') }}" method="post">
+            {{ csrf_field() }}
             <label for="url">Url</label>
             <input type="text" name="url">
             <input type="submit" value="Add">

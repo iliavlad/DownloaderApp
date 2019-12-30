@@ -3,7 +3,9 @@
 DownloaderApp is a Laravel app to add to cv
 
 Description
-You need to develop a web-application which will download particular resource by specified url. The same resources can be downloaded multiple times.
+
+You need to develop a web-application which will download particular resource by specified url.
+The same resources can be downloaded multiple times.
 Url can be passed via web API method or with CLI command.
 There should be a simple html page showing status of all jobs (for complete jobs there also should be an url to download target file). The same should be available via CLI command and web API.
 It should save downloaded urls in storage configured in Laravel (local driver can be used).

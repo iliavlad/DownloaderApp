@@ -57,7 +57,7 @@ class TaskService
         $task->status = Task::DOWNLOADING;
         $this->taskRepo->sync($task);
 
-        $file = $downloader->download(urlencode($task->url));
+        $file = $downloader->download($task->url);
 
         if (false === $file) {
             $task->status = Task::ERROR;

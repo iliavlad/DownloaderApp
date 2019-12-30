@@ -20,7 +20,7 @@
                 <td>{{ $task->url }}</td>
                 <td>{{ $task->status }}</td>
                 <td>{{ $task->added_by }}</td>
-                <td><a href="{{ $task->local_path }}">{{ $task->getFileNameFromUrl() }}</a></td>
+                <td>@if($task->local_path)<a href="{{ $task->local_path }}">{{ $task->getFileNameFromUrl() }}</a>@endif</td>
                 <td>{{ $task->created_at }}</td>
                 <td>{{ $task->updated_at }}</td>
             </tr>
