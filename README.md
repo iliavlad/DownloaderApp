@@ -31,4 +31,4 @@ Demo to list and add tasks
 https://downloaderapp.test-the.tech/
 
 Demo to use api at AWS server
-https://downloaderappaws.test-the.tech/
+http://downloaderappaws.test-the.tech/
