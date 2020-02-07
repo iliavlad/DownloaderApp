@@ -30,7 +30,7 @@ class TaskController extends Controller
      *
      * @param StoreTaskRequest $request
      * @param TaskService $service
-     * @return \Illuminate\Routing\Redirector|\Illuminate\Http\RedirectResponse
+     * @return \App\Http\Resources\Task|\Illuminate\Http\JsonResponse
      */
     public function add(StoreTaskRequest $request, TaskService $service)
     {
